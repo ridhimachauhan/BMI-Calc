@@ -15,7 +15,7 @@ st.title("Welcome to BMI calculator")
 weight = st.number_input("Enter your weight in KG", step = 0.1)
 
 if weight >= 1000.0 :
-    st.success("Don't play with this")
+    st.error("Don't play with this")
     quit()
 else : 
     st.success("Okay!")
@@ -23,7 +23,7 @@ else :
 height = st.number_input("Enter your height in Meters", step = 0.01)
 
 if height >= 3.00 :
-    st.success("Oi!") 
+    st.error("Oi!") 
     quit()
 else : 
     st.success("Okay!")
