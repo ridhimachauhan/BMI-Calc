@@ -16,7 +16,7 @@ weight = st.number_input("Enter your weight in KG", step = 0.1)
 
 if weight >= 1000.0 :
     print("Don't play with this")
-    return weight
+    quit()
 else : 
     print("Okay!")
 
@@ -24,7 +24,7 @@ height = st.number_input("Enter your height in Meters", step = 0.01)
 
 if height >= 3.00 :
     print ("Oi!") 
-    return height
+    quit()
 else : 
     print("Okay!")
 
