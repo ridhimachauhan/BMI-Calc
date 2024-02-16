@@ -20,6 +20,8 @@ if weight >= 1000.0 :
 else : 
     st.success("Okay!")
 
+st.snow()
+
 height = st.number_input("Enter your height in Meters", step = 0.01)
 
 if height >= 3.00 :
@@ -41,9 +43,9 @@ def calculate_bmi():
     else:
         level = level_labels[3]
     st. success(f"Your BMI is {bmi}. You are at {level}")
+    st.balloons()
 
 button = st.button("Calculate BMI")
 if button:
     calculate_bmi()
 
-st.balloons()
