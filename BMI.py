@@ -8,7 +8,7 @@ Created on Tue Mar  7 14:16:50 2023
 
 import streamlit as st
 
-st.title("Welocme to BMI calculator")
+st.title("Welcome to BMI calculator")
 
 #Input
 
@@ -16,15 +16,15 @@ weight = st.number_input("Enter your weight in KG", step = 0.1)
 
 if weight >= 1000.0 :
     print("Don't play with this")
-    return weight = st.number_input("Enter your weight in KG", step = 0.1)
-else proceed to 22
+    return weight
+else proceed 
 
 height = st.number_input("Enter your height in Meters", step = 0.01)
 
 if height >= 3.00 :
     print ("Oi!") 
-    return height = st.number_input("Enter your height in Meters", step = 0.01)
-else proceed to 29
+    return height
+else proceed 
 
 def calculate_bmi():
     bmi = weight/(height)**2
