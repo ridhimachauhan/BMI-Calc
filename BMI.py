@@ -17,6 +17,7 @@ weight = st.number_input("Enter your weight in KG", step = 0.1)
 if weight >= 1000.0 :
     print("Don't play with this")
     quit()
+    print("Don't play with this")
 else : 
     print("Okay!")
 
