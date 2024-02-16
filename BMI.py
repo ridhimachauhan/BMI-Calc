@@ -16,14 +16,14 @@ weight = st.number_input("Enter your weight in KG", step = 0.1)
 
 if weight >= 1000.0 :
     print("Don't play with this")
-    return to 15
+    return weight = st.number_input("Enter your weight in KG", step = 0.1)
 else proceed to 22
 
 height = st.number_input("Enter your height in Meters", step = 0.01)
 
 if height >= 3.00 :
     print ("Oi!") 
-    return to 22
+    return height = st.number_input("Enter your height in Meters", step = 0.01)
 else proceed to 29
 
 def calculate_bmi():
